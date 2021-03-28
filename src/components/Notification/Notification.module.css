@@ -1,0 +1,33 @@
+.overlay {
+   position: absolute;
+   top: 15px;
+   right: 38%;
+   background-color: #f1392d;
+   color: #ffffff;
+}
+
+.message {
+   padding: 10px 40px;
+   margin: 0;
+}
+
+.enter {
+   transform: translateX(100%);
+   opacity: 0;
+}
+
+.enterActive {
+   transform: translateX(0);
+   transition: all 250ms linear;
+   opacity: 1;
+}
+.exit {
+   transform: translateX(0);
+   opacity: 1;
+}
+
+.exitActive {
+   transform: translateX(100%);
+   transition: all 250ms linear;
+   opacity: 0;
+}
