@@ -6,7 +6,7 @@ import Section from 'components/Section/Section';
 import ContactForm from 'components/ContactForm/ContactForm';
 import Filter from 'components/Filter/Filter';
 import ContactList from 'components/ContactList/ContactList';
-import s from './components/PhoneBook/PhoneBook.module.css';
+import s from './App.module.css';
 
 function App({ contacts }) {
   return (
@@ -30,7 +30,6 @@ function App({ contacts }) {
 
 const mapStateToProps = state => ({
   contacts: state.phonebook.contacts,
-  value: state.phonebook.filter
 })
 
 
